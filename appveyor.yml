@@ -14,6 +14,10 @@ test_script:
   - npm --version
   # run tests
   - npm test
+  - nuget pack Microsoft.TSLint.Contrib.nuspec
+
+artifacts:
+  - path: '**\*.nupkg'
 
 # Don't actually build.
 build: off

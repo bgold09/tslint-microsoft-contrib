@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Microsoft.TSLint.Contrib</id>
+        <version>4.0.1</version>
+        <authors>TODO</authors>
+        <owners>adfeng</owners>
+        <licenseUrl>https://github.com/Microsoft/tslint-microsoft-contrib/blob/master/license.txt</licenseUrl>
+        <projectUrl>https://github.com/Microsoft/tslint-microsoft-contrib</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A set of TSLint rules used on some Microsoft projects.</description>
+        <releaseNotes>https://github.com/Microsoft/tslint-microsoft-contrib/wiki/Release-Notes</releaseNotes>
+        <copyright>Copyright (c) Microsoft Corporation. All rights reserved.</copyright>
+        <tags>tslint microsoft typescript</tags>
+    </metadata>
+    <files>
+      <file src="dist\build\**\*.*" target="content\scripts" /> 
+    </files>
+</package>
